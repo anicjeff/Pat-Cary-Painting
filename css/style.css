@@ -1,0 +1,77 @@
+
+body{
+	padding-top: 70px;
+}   
+.contentcard{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+.topcard{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	border-radius: 4px;
+	
+}
+.navbar {
+    background-color: transparent;
+}
+    
+
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.double-nav,.scrolling-navbar{
+z-index:100
+}
+    
+@media only screen and (min-width:768px){
+	.scrolling-navbar{
+       -webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;
+     	transition:background .5s ease-in-out,padding .5s ease-in-out;
+    	padding-top:12px;
+    	padding-bottom:12px;
+	}
+
+	.scrolling-navbar .navbar-nav>li{
+	   -webkit-transition-duration:1s;transition-duration:1s;
+	}
+
+	.top-nav-collapse{
+	   padding-top:5px;
+	   padding-bottom:5px;
+	}
+}
+    
+@media only screen and (max-width: 768px) {
+      .topcard{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.contentcard{
+		padding-left:5%;
+		padding-right:5%;
+	}
+}
+@media screen and (max-width: 768px) {
+  body{
+    padding-top:63px;
+  }
+}
+.btn-outline-white {
+    border: 2px solid #fff;
+    color: #fff!important;
+    background-color: transparent;
+}
+
+#foot {
+	
+	padding: .5rem;
+}
