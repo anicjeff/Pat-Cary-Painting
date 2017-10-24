@@ -12,13 +12,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/mdb.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+
         <link href='css/rotating-card.css' rel='stylesheet' />
-    </head> 
- 
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
     <body>
         <?php include('header.php');?>
-        <main>
+        <main id="home">
             <?php include('topcard.php');?>
             <?php include('rc.php');?>
             <div id="serv"><?php include('service.php');?></div>

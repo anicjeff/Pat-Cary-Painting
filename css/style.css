@@ -1,7 +1,7 @@
 
 body{
 	padding-top: 70px;
-}   
+}
 .contentcard{
 	padding-left: 10%;
 	padding-right: 10%;
@@ -13,65 +13,85 @@ body{
 	padding-right: 10%;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
+
+
+
+}
+.card-overlay {
 	border-radius: 4px;
-	
+	box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.8);
 }
 .navbar {
-    background-color: transparent;
+	background-color: transparent;
+	box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.8);
 }
-    
+
+
+
 
 
 .scrolling-navbar {
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
 }
 
 .double-nav,.scrolling-navbar{
-z-index:100
+	z-index:100
 }
-    
+
 @media only screen and (min-width:768px){
 	.scrolling-navbar{
-       -webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;
-     	transition:background .5s ease-in-out,padding .5s ease-in-out;
-    	padding-top:12px;
-    	padding-bottom:12px;
+		-webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;
+		transition:background .5s ease-in-out,padding .5s ease-in-out;
+		padding-top:12px;
+		padding-bottom:12px;
 	}
 
 	.scrolling-navbar .navbar-nav>li{
-	   -webkit-transition-duration:1s;transition-duration:1s;
+		-webkit-transition-duration:1s;transition-duration:1s;
 	}
 
 	.top-nav-collapse{
-	   padding-top:5px;
-	   padding-bottom:5px;
+		padding-top:5px;
+		padding-bottom:5px;
 	}
 }
-    
+
 @media only screen and (max-width: 768px) {
-      .topcard{
-		padding-left:0px;
-		padding-right:0px;
+	.topcard{
+		padding-left: 5%;
+		padding-right:5%;
 	}
 	.contentcard{
 		padding-left:5%;
 		padding-right:5%;
+
 	}
 }
 @media screen and (max-width: 768px) {
-  body{
-    padding-top:63px;
-  }
+	body{
+		padding-top:63px;
+	}
 }
 .btn-outline-white {
-    border: 2px solid #fff;
-    color: #fff!important;
-    background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff!important;
+	background-color: transparent;
 }
 
 #foot {
-	
+
 	padding: .5rem;
 }
+.card {
+	box-shadow: -1px 7px 20px 0px rgba(0,0,0,0.8);
+}
+.active {
+	background-color: #fff;
+}
+.pull-right {
+
+     float: right;
+    margin-right: 98px; /*set margin this way in your custom styesheet*/
+  }
